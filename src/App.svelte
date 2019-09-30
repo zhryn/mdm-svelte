@@ -5,6 +5,24 @@
   import Header from "./components/Header.svelte";
   import Section from "./components/Section.svelte";
   import SectionHeader from "./components/SectionHeader.svelte";
+  import ProductItem from "./components/ProductItem.svelte";
+
+  let products = [
+    { name: "Baliho", img: "./assets/img/products/tn-baliho.jpeg" },
+    { name: "Billboard", img: "./assets/img/products/tn-billboard.jpeg" },
+    { name: "Brosur", img: "./assets/img/products/tn-brosur.jpg" },
+    {
+      name: "Cutting Sticker",
+      img: "./assets/img/products/tn-cutting-sticker.jpeg"
+    },
+    { name: "Event Desk", img: "./assets/img/products/tn-event-desk.jpg" },
+    { name: "Plang Nama", img: "./assets/img/products/tn-plang-nama.jpeg" },
+    { name: "Pocket", img: "./assets/img/products/tn-pocket.jpg" },
+    { name: "Roll Banner", img: "./assets/img/products/tn-roll-banner.jpeg" },
+    { name: "Spanduk", img: "./assets/img/products/tn-spanduk.jpeg" },
+    { name: "T-Banner", img: "./assets/img/products/tn-t-banner.jpg" },
+    { name: "Videotron", img: "./assets/img/products/tn-videotron.jpg" }
+  ];
 </script>
 
 <Navbar id="mainNav">
@@ -43,4 +61,9 @@
 
 <Section id="product" light>
   <SectionHeader title="Produk" subtitle="Produk CV. Mitra Dewata Media" />
+  <div class="row">
+    {#each products as product}
+      <ProductItem name={product.name} img={product.img} />
+    {/each}
+  </div>
 </Section>
