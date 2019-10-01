@@ -6,7 +6,9 @@
   import Section from "./components/Section.svelte";
   import SectionHeader from "./components/SectionHeader.svelte";
   import ProductItem from "./components/ProductItem.svelte";
+  import Gallery from "./components/Gallery.svelte";
   import ClientItem from "./components/ClientItem.svelte";
+  import Footer from "./components/Footer.svelte";
 
   let products = [
     {
@@ -30,6 +32,20 @@
       items: ["Videotron", "LED", "Running Text"]
     },
     { category: "Printing", items: ["Media Iklan", "Brocure", "Booklet"] }
+  ];
+
+  let gallery = [
+    "./assets/img/products/tn-baliho.jpeg",
+    "./assets/img/products/tn-billboard.jpeg",
+    "./assets/img/products/tn-brosur.jpg",
+    "./assets/img/products/tn-cutting-sticker.jpeg",
+    "./assets/img/products/tn-event-desk.jpg",
+    "./assets/img/products/tn-plang-nama.jpeg",
+    "./assets/img/products/tn-pocket.jpg",
+    "./assets/img/products/tn-roll-banner.jpeg",
+    "./assets/img/products/tn-spanduk.jpeg",
+    "./assets/img/products/tn-t-banner.jpg",
+    "./assets/img/products/tn-videotron.jpg"
   ];
 
   let clients = [
@@ -73,6 +89,7 @@
     <NavbarItem target="#page-top" text="BERANDA" />
     <NavbarItem target="#about" text="PROFIL" />
     <NavbarItem target="#product" text="PRODUK" />
+    <NavbarItem target="#gallery" text="GALLERY" />
     <NavbarItem target="#client" text="KLIEN" />
     <NavbarItem target="#contact" text="KONTAK" />
   </NavbarMenu>
@@ -103,12 +120,12 @@
   </div>
 </Section>
 
-<Section id="product" light>
+<Section id="product">
   <SectionHeader title="Produk" subtitle="Produk CV. Mitra Dewata Media" />
   {#each products as product}
     <div class="row justify-content-center text-center mb-4">
       <div class="col-8">
-        <h3 class="text-white">{product.category}</h3>      
+        <h3 class="text-white">{product.category}</h3>
       </div>
     </div>
     <div class="row mb-4">
@@ -117,6 +134,12 @@
       {/each}
     </div>
   {/each}
+</Section>
+
+<Section id="gallery" light>
+  <SectionHeader title="Gallery" />
+  <div class="mb-5" />
+  <Gallery {gallery} />
 </Section>
 
 <Section id="client">
@@ -173,14 +196,4 @@
   </div>
 </Section>
 
-<footer class="footer">
-  <div class="container">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-md-8">
-        <span class="copyright">
-          Copyright &copy; CV. Mitra Dewata Media 2019
-        </span>
-      </div>
-    </div>
-  </div>
-</footer>
+<Footer text="Copyright &copy; CV. Mitra Dewata Media 2019" />

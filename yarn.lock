@@ -18,6 +18,13 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@beyonk/svelte-carousel@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@beyonk/svelte-carousel/-/svelte-carousel-2.1.0.tgz#0078a7d3972b58c5bb0c9d56d2c0febda41723fe"
+  integrity sha512-ctxOpYnqmPNX7sbzwhjY/PcaBDm3RH8QkkPplifOkMlySTF6bNRFLn6rXEwe2r7b0mLd6JsB/41JugU3f2wz1Q==
+  dependencies:
+    siema "^1.5.1"
+
 "@polka/url@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
@@ -1530,6 +1537,11 @@ shell-quote@^1.6.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
   integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
 
+siema@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/siema/-/siema-1.5.1.tgz#eff312b77e8340fa4d81d5d053ebbeb9113ff888"
+  integrity sha1-7/MSt36DQPpNgdXQU+u+uRE/+Ig=
+
 signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
@@ -1752,6 +1764,11 @@ supports-color@^6.1.0:
   integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
   dependencies:
     has-flag "^3.0.0"
+
+svelte-feather-icons@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-feather-icons/-/svelte-feather-icons-2.0.0.tgz#84565a09c2446007f038f53dd29b84e0be40ba3d"
+  integrity sha512-IuVWz2JKnnZMdN70Pf5wB1d55aSSVbtsw0X1qwKuXWHH3rTXUxlgMsJL15FjOQeArYYm5WbqXa/q0IARNBPr8g==
 
 svelte-scrollto@^0.1.1:
   version "0.1.1"
