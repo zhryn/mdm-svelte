@@ -6,6 +6,7 @@
   import Section from "./components/Section.svelte";
   import SectionHeader from "./components/SectionHeader.svelte";
   import ProductItem from "./components/ProductItem.svelte";
+  import ClientItem from "./components/ClientItem.svelte";
 
   let products = [
     { name: "Baliho", img: "./assets/img/products/tn-baliho.jpeg" },
@@ -23,11 +24,25 @@
     { name: "T-Banner", img: "./assets/img/products/tn-t-banner.jpg" },
     { name: "Videotron", img: "./assets/img/products/tn-videotron.jpg" }
   ];
+
+  let clients = [
+    { url: "http://amidiswater.com/", img: "./assets/img/logos/amidis.jpg" },
+    { url: "https://www.facebook.com/DivineClinicBali/", img: "./assets/img/logos/divine-clinic.jpg" },
+    { url: "https://www.ef.co.id/", img: "./assets/img/logos/ef.jpg" },
+    { url: "https://www.ialf.edu/", img: "./assets/img/logos/ialf.jpg" },
+    { url: "https://www.idp.com/indonesia/", img: "./assets/img/logos/idp.jpg" },
+    { url: "https://kutapointardenia.com/", img: "./assets/img/logos/kuta-point.jpg" },
+    { url: "https://www.pegadaian.co.id/", img: "./assets/img/logos/pegadaian.jpg" },
+    { url: "https://www.smartfren.com/id/", img: "./assets/img/logos/smartfren.jpg" },
+    { url: "https://www.sol-hotels.com/en/sol-house", img: "./assets/img/logos/sol-house.jpg" },
+    { url: "https://www.traveloka.com/en/", img: "./assets/img/logos/traveloka.jpg" }
+  ];
 </script>
 
 <Navbar id="mainNav">
   <div id="logo" slot="brand" />
   <NavbarMenu>
+    <NavbarItem target="#page-top" text="BERANDA" />
     <NavbarItem target="#about" text="PROFIL" />
     <NavbarItem target="#product" text="PRODUK" />
     <NavbarItem target="#client" text="KLIEN" />
@@ -55,6 +70,7 @@
         Nusantara dan PT. Metra Digital Media by Telkom Indonesia. Kami
         berkomitmen memberikan yang terbaik dari kualitas dan harga.
       </p>
+      <div class="logo mx-auto mt-5" />
     </div>
   </div>
 </Section>
@@ -64,6 +80,14 @@
   <div class="row">
     {#each products as product}
       <ProductItem name={product.name} img={product.img} />
+    {/each}
+  </div>
+</Section>
+
+<Section id="client">
+  <div class="row">
+    {#each clients as client}
+      <ClientItem url={client.url} img={client.img} />
     {/each}
   </div>
 </Section>
