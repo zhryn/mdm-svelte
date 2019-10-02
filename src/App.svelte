@@ -59,6 +59,10 @@
       img: "./assets/img/logos/c-idp.jpg"
     },
     {
+      url: "https://www.pegadaian.co.id/",
+      img: "./assets/img/logos/c-pegadaian.jpg"
+    },
+    {
       url: "https://kutapointardenia.com/",
       img: "./assets/img/logos/c-kuta-point.jpg"
     },
@@ -73,6 +77,14 @@
     {
       url: "https://www.traveloka.com/en/",
       img: "./assets/img/logos/c-traveloka.jpg"
+    },
+    {
+      url: "https://www.signaturehotelbali.com/",
+      img: "./assets/img/logos/c-signature.jpg"
+    },
+    {
+      url: "http://www.naughty-nuris.com/",
+      img: "./assets/img/logos/c-nuri.jpg"
     }
   ];
 </script>
@@ -90,8 +102,8 @@
 </Navbar>
 
 <Header
-  leadIn="Selamat Datang di Situs Kami!"
-  heading="Mitra Dewata Media"
+  leadIn="Advertising Solution"
+  heading="CV Mitra Dewata Media"
   btnText="Pelajari"
   btnDestination="#about" />
 
