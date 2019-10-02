@@ -106,7 +106,8 @@
         memberikan yang terbaik berupa jasa dan kualitas bahan serta kualitas
         pekerjaan yang bisa kami pertanggung jawabkan. Segera hubungi kami untuk
         menemukan solusi meningkatkan keuntungan usaha atau perusahaan anda.
-        <br/>NGGAK IKLAN NGGAK UNTUNG.
+        <br />
+        NGGAK IKLAN NGGAK UNTUNG.
       </p>
       <div class="logo mx-auto mt-5" />
     </div>
@@ -161,28 +162,38 @@
           <dl class="mb-3">
             <dt class="mb-2">BAGUS YOGA</dt>
             <dd class="mb-0">0812 3676 108</dd>
-            <dd>yogapuspanta80@gmail.com</dd>
+            <dd>
+              <a href="mailto:yogapuspanta80@gmail.com">
+                yogapuspanta80@gmail.com
+              </a>
+            </dd>
           </dl>
         </div>
         <div class="col-md-6">
           <dl class="mb-3">
             <dt class="mb-2">AGUNG SUGITA</dt>
             <dd class="mb-0">0811 3800 013</dd>
-            <dd>sugitaagung@gmail.com</dd>
+            <dd>
+              <a href="mailto:sugitaagung@gmail.com">sugitaagung@gmail.com</a>
+            </dd>
           </dl>
         </div>
         <div class="col-md-6">
           <dl class="mb-3">
             <dt class="mb-2">MADE LOJI</dt>
             <dd class="mb-0">0878 6005 2692</dd>
-            <dd>made.loji@gmail.com</dd>
+            <dd>
+              <a href="mailto:made.loji@gmail.com">made.loji@gmail.com</a>
+            </dd>
           </dl>
         </div>
         <div class="col-md-6">
           <dl class="mb-3">
             <dt class="mb-2">REZA</dt>
             <dd class="mb-0">0878 5513 3240</dd>
-            <dd>riza8998@gmail.com</dd>
+            <dd>
+              <a href="mailto:riza8998@gmail.com">riza8998@gmail.com</a>
+            </dd>
           </dl>
         </div>
       </div>
