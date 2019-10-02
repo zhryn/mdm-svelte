@@ -175,7 +175,7 @@
             <dt class="mb-2">BAGUS YOGA</dt>
             <dd class="mb-0">0812 3676 108</dd>
             <dd>
-              <a href="mailto:yogapuspanta80@gmail.com">
+              <a class="text-white" href="mailto:yogapuspanta80@gmail.com">
                 yogapuspanta80@gmail.com
               </a>
             </dd>
@@ -186,7 +186,9 @@
             <dt class="mb-2">AGUNG SUGITA</dt>
             <dd class="mb-0">0811 3800 013</dd>
             <dd>
-              <a href="mailto:sugitaagung@gmail.com">sugitaagung@gmail.com</a>
+              <a class="text-white" href="mailto:sugitaagung@gmail.com">
+                sugitaagung@gmail.com
+              </a>
             </dd>
           </dl>
         </div>
@@ -195,7 +197,9 @@
             <dt class="mb-2">MADE LOJI</dt>
             <dd class="mb-0">0878 6005 2692</dd>
             <dd>
-              <a href="mailto:made.loji@gmail.com">made.loji@gmail.com</a>
+              <a class="text-white" href="mailto:made.loji@gmail.com">
+                made.loji@gmail.com
+              </a>
             </dd>
           </dl>
         </div>
@@ -204,7 +208,9 @@
             <dt class="mb-2">REZA</dt>
             <dd class="mb-0">0878 5513 3240</dd>
             <dd>
-              <a href="mailto:riza8998@gmail.com">riza8998@gmail.com</a>
+              <a class="text-white" href="mailto:riza8998@gmail.com">
+                riza8998@gmail.com
+              </a>
             </dd>
           </dl>
         </div>
