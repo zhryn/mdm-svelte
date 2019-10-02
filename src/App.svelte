@@ -35,12 +35,10 @@
   ];
 
   let gallery = [
-    "./assets/img/products/tn-baliho.jpeg",
     "./assets/img/products/tn-billboard.jpeg",
     "./assets/img/products/tn-brosur.jpg",
     "./assets/img/products/tn-cutting-sticker.jpeg",
     "./assets/img/products/tn-event-desk.jpg",
-    "./assets/img/products/tn-plang-nama.jpeg",
     "./assets/img/products/tn-pocket.jpg",
     "./assets/img/products/tn-roll-banner.jpeg",
     "./assets/img/products/tn-spanduk.jpeg",
@@ -49,36 +47,32 @@
   ];
 
   let clients = [
-    { url: "http://amidiswater.com/", img: "./assets/img/logos/amidis.jpg" },
+    { url: "http://amidiswater.com/", img: "./assets/img/logos/c-amidis.jpg" },
     {
       url: "https://www.facebook.com/DivineClinicBali/",
-      img: "./assets/img/logos/divine-clinic.jpg"
+      img: "./assets/img/logos/c-divine-clinic.jpg"
     },
-    { url: "https://www.ef.co.id/", img: "./assets/img/logos/ef.jpg" },
-    { url: "https://www.ialf.edu/", img: "./assets/img/logos/ialf.jpg" },
+    { url: "https://www.ef.co.id/", img: "./assets/img/logos/c-ef.jpg" },
+    { url: "https://www.ialf.edu/", img: "./assets/img/logos/c-ialf.jpg" },
     {
       url: "https://www.idp.com/indonesia/",
-      img: "./assets/img/logos/idp.jpg"
+      img: "./assets/img/logos/c-idp.jpg"
     },
     {
       url: "https://kutapointardenia.com/",
-      img: "./assets/img/logos/kuta-point.jpg"
-    },
-    {
-      url: "https://www.pegadaian.co.id/",
-      img: "./assets/img/logos/pegadaian.jpg"
+      img: "./assets/img/logos/c-kuta-point.jpg"
     },
     {
       url: "https://www.smartfren.com/id/",
-      img: "./assets/img/logos/smartfren.jpg"
+      img: "./assets/img/logos/c-smartfren.jpg"
     },
     {
       url: "https://www.sol-hotels.com/en/sol-house",
-      img: "./assets/img/logos/sol-house.jpg"
+      img: "./assets/img/logos/c-sol-house.jpg"
     },
     {
       url: "https://www.traveloka.com/en/",
-      img: "./assets/img/logos/traveloka.jpg"
+      img: "./assets/img/logos/c-traveloka.jpg"
     }
   ];
 </script>
@@ -86,12 +80,12 @@
 <Navbar id="mainNav">
   <div id="logo" slot="brand" />
   <NavbarMenu>
-    <NavbarItem target="#page-top" text="BERANDA" />
-    <NavbarItem target="#about" text="PROFIL" />
-    <NavbarItem target="#product" text="PRODUK" />
+    <NavbarItem target="#page-top" text="HOME" />
+    <NavbarItem target="#about" text="PROFILE" />
+    <NavbarItem target="#product" text="PRODUCT" />
     <NavbarItem target="#gallery" text="GALLERY" />
-    <NavbarItem target="#client" text="KLIEN" />
-    <NavbarItem target="#contact" text="KONTAK" />
+    <NavbarItem target="#client" text="CLIENT" />
+    <NavbarItem target="#contact" text="CONTACT" />
   </NavbarMenu>
 </Navbar>
 
@@ -102,18 +96,17 @@
   btnDestination="#about" />
 
 <Section id="about">
-  <SectionHeader title="Profil" subtitle="Tentang CV. Mitra Dewata Media" />
+  <SectionHeader title="Profile" subtitle="About Us" />
   <div class="row">
     <div class="col-lg-8 mx-auto text-center">
       <p class="large text-muted">
-        CV. Mitra Dewata Media (MDM) Advertising Solution adalah perusahaan jasa
-        periklanan dan advertising dan dikelola oleh manajemen sumber daya
-        manusia yang sudah berpengalaman sejak 2003, dibidang Printing Directory
-        Service (Yellow Pages Telkom dan Direktori Komunitas), Media Placement
-        (Bilboard outdoor & Indoor), DOOH (VIDEOTRON), Mobile Advertising (SMS
-        Broadcast, SMS Profiling dan SMS LBA), dahulu bersama PT. Infomedia
-        Nusantara dan PT. Metra Digital Media by Telkom Indonesia. Kami
-        berkomitmen memberikan yang terbaik dari kualitas dan harga.
+        CV. Mitra Dewata Media adalah perusahaan yg bergerak dibidang jasa
+        periklanan dan advertising. Perusahaan ini dikelola oleh SDM yang sudah
+        berpengalaman sejak tahun 2013 dibidang periklanan. Kami selalu berusaha
+        memberikan yang terbaik berupa jasa dan kualitas bahan serta kualitas
+        pekerjaan yang bisa kami pertanggung jawabkan. Segera hubungi kami untuk
+        menemukan solusi meningkatkan keuntungan usaha atau perusahaan anda.
+        <br/>NGGAK IKLAN NGGAK UNTUNG.
       </p>
       <div class="logo mx-auto mt-5" />
     </div>
@@ -121,7 +114,7 @@
 </Section>
 
 <Section id="product">
-  <SectionHeader title="Produk" subtitle="Produk CV. Mitra Dewata Media" />
+  <SectionHeader title="Product" subtitle="Our Product" />
   {#each products as product}
     <div class="row justify-content-center text-center mb-4">
       <div class="col-8">
@@ -143,7 +136,7 @@
 </Section>
 
 <Section id="client">
-  <SectionHeader title="Klien Kami" />
+  <SectionHeader title="Our Client" />
   <div class="row justify-content-center mt-5">
     {#each clients as client}
       <ClientItem url={client.url} img={client.img} />
@@ -152,7 +145,7 @@
 </Section>
 
 <Section id="contact">
-  <SectionHeader title="Kontak" />
+  <SectionHeader title="Contact" />
   <div class="row">
     <div class="col-lg-8 mx-auto text-center pt-4">
       <dl>
@@ -161,8 +154,9 @@
         <dt>Telepon</dt>
         <dd>0361 - 845 2258</dd>
       </dl>
-      <h3 class="mt-5 mb-3">Media Advisor</h3>
-      <div class="row">
+      <h3 class="mt-5 mb-0">Media Advisor</h3>
+      <span class="text-white ">Please contact our Media Advisor:</span>
+      <div class="row mt-3">
         <div class="col-md-6">
           <dl class="mb-3">
             <dt class="mb-2">BAGUS YOGA</dt>
