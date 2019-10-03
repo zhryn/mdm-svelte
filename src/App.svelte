@@ -43,7 +43,8 @@
     "./assets/img/products/tn-roll-banner.jpeg",
     "./assets/img/products/tn-spanduk.jpeg",
     "./assets/img/products/tn-t-banner.jpg",
-    "./assets/img/products/tn-videotron.jpg"
+    "./assets/img/products/tn-videotron.jpg",
+    "./assets/img/products/tn-letter-sign.jpg"
   ];
 
   let clients = [
