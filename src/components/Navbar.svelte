@@ -1,17 +1,22 @@
 <script>
   import { Collapse, Navbar, NavbarToggler, NavbarBrand } from "sveltestrap";
+  import { isNavbarOpen } from "../store.js";
 
   export let id = "";
 
   let scrollY = 0;
   let isOpen = false;
 
+  const unsubscribe = isNavbarOpen.subscribe(v => {
+    isOpen = v;
+  });
+
   const toggle = () => {
-    isOpen = !isOpen;
+    isNavbarOpen.set(!isOpen);
   };
 
   const handleResponsive = e => {
-    isOpen = e.detail.isOpen;
+    isNavbarOpen.set(e.detail.isOpen);
   };
 </script>
 
