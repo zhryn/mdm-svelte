@@ -44,7 +44,9 @@
     "./assets/img/products/tn-spanduk.jpeg",
     "./assets/img/products/tn-t-banner.jpg",
     "./assets/img/products/tn-videotron.jpg",
-    "./assets/img/products/tn-letter-sign.jpg"
+    "./assets/img/products/tn-letter-sign.jpg",
+    "./assets/img/products/tn-exit.jpg",
+    "./assets/img/products/tn-exit2.jpg"
   ];
 
   let clients = [
