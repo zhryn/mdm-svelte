@@ -36,17 +36,16 @@
 
   let gallery = [
     "./assets/img/products/tn-billboard.jpeg",
-    "./assets/img/products/tn-brosur.jpg",
     "./assets/img/products/tn-cutting-sticker.jpeg",
     "./assets/img/products/tn-event-desk.jpg",
     "./assets/img/products/tn-pocket.jpg",
     "./assets/img/products/tn-roll-banner.jpeg",
-    "./assets/img/products/tn-spanduk.jpeg",
     "./assets/img/products/tn-t-banner.jpg",
     "./assets/img/products/tn-videotron.jpg",
     "./assets/img/products/tn-letter-sign.jpg",
     "./assets/img/products/tn-exit.jpg",
-    "./assets/img/products/tn-exit2.jpg"
+    "./assets/img/products/tn-exit2.jpg",
+    "./assets/img/products/tn-gate.jpg"
   ];
 
   let clients = [
@@ -106,7 +105,7 @@
 
 <Header
   leadIn="Advertising Solution"
-  heading="CV Mitra Dewata Media"
+  heading="Mitra Dewata Media"
   btnText="Pelajari"
   btnDestination="#about" />
 
@@ -167,6 +166,8 @@
       <dl>
         <dt>CV. MITRA DEWATA MEDIA</dt>
         <dd>Jl. Subur Gg. Mirah Hati 1C No. 1 Denpasar, Bali 80119</dd>
+        <dt>WORKSHOP</dt>
+        <dd>Jl. Hayam Wuruk Gg. Naga Sari II-X No. 1 Denpasar, Bali 80239</dd>        
         <dt>Telepon</dt>
         <dd>0361 - 845 2258</dd>
       </dl>
